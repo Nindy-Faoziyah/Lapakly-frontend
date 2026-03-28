@@ -46,38 +46,39 @@ CSS Module
 React Hot Toast
 
 # Struktur Project
+## Struktur Project
+
+```
 umkm-frontend/
 ├── public/
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   ├── common/       # Button, Input, Loading, Badge, BottomNav, SideNav, ThemeToggle
-│   │   ├── cart/         # CartItem
-│   │   ├── order/        # OrderCard
-│   │   ├── product/      # ProductCard
-│   │   └── store/        # StoreCard
-│   │   └── chat/        # ChatBubble, ChatInput
-│   ├── context/          # AuthContext, CartContext, ThemeContext
-│   ├── hooks/            # useLocation
-│   ├── mocks/            # Data dummy untuk testing tanpa backend
+│   │   ├── common/        # Button, Input, Loading, Badge, BottomNav, SideNav, ThemeToggle
+│   │   ├── cart/          # CartItem
+│   │   ├── order/         # OrderCard
+│   │   ├── product/       # ProductCard
+│   │   ├── store/         # StoreCard
+│   │   └── chat/          # ChatBubble, ChatInput
+│   ├── context/           # AuthContext, CartContext, ThemeContext
+│   ├── hooks/             # useLocation
+│   ├── mocks/             # Data dummy
 │   ├── pages/
-│   │   ├── auth/         # Login, Register, ResetPassword, ForgotPassword
-│   │   ├── buyer/        # Home, Explore, StoreDetail, Cart, Checkout, Order Detail, Profile, Chat, Order List, Store Detail
-│   │   └── seller/       # Dashboard, Products, Store, Finance, Chat
-│   ├── routes/           # PrivateRoute, SellerRoute
-│   ├── services/         # api, auth, store, product, cart, order, chat
-│   └── utils/            # constants, formatCurrency, calculateDistance, excelexcelExport
-│   └── App.jsx
-│   └── Index
-│   └── main.jsx
+│   │   ├── auth/          # Login, Register, ResetPassword, ForgotPassword
+│   │   ├── buyer/         # Home, Explore, StoreDetail, Cart, Checkout, dll
+│   │   └── seller/        # Dashboard, Products, Store, Finance, Chat
+│   ├── routes/            # PrivateRoute, SellerRoute
+│   ├── services/          # api, auth, store, product, cart, order, chat
+│   ├── utils/             # constants, formatCurrency, dll
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index
 ├── .env.example
-├── .gitignore
-├── index.html
 ├── package.json
-├── package-lock.json
 ├── README.md
-├── replaceColors.js
 └── vite.config.js
+```
+
 
 # Instalasi & Menjalankan project
 1. Install dependencies
