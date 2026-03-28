@@ -1,51 +1,86 @@
-# Lapakly
+## Lapakly
 Platform pencarian & pemesanan UMKM terdekat berbasis lokasi. Dibangun dengan React + Vite, terhubung ke backend Laravel yang sudah live.
 
-# Fitur utama
+## Fitur utama
 👤 Auth & User
+
 Login & Register
+
 Logout
+
 Edit Profile (nama, email, no hp, password)
+
 Forgot Password & Reset Password
 
+
 🛍️ Buyer
+
 Lihat daftar toko
+
 Detail toko + daftar produk
+
 Search produk di dalam toko 🔍
+
 Tambah ke keranjang
+
 Checkout & lihat pesanan
+
 Chat dengan penjual 💬
 
+
 🏪 Seller
+
 Dashboard penjual
+
 Kelola produk
+
 Kelola toko
+
 Update status pesanan:
+
 accepted → preparing → completed
 
+
 💬 Chat
+
 Chat antara pembeli & penjual per toko
+
 Auto refresh (realtime sederhana)
+
 Notifikasi pesan masuk
 
+
 🎨 UI/UX
+
 Design modern & clean
+
 Konsisten dengan branding:
+
 Primary: #006633
+
 Secondary: #339933
+
 Font:
+
 Heading: Retrograde Regular
+
 Body: Work Sans
+
 Responsive (mobile & desktop)
 
+
 🛠️ Tech Stack
+
 React (Vite)
+
 React Router
+
 Context API
+
 CSS Module
+
 React Hot Toast
 
-# Struktur Project
 ## Struktur Project
 
 ```
@@ -80,7 +115,7 @@ umkm-frontend/
 ```
 
 
-# Instalasi & Menjalankan project
+## Instalasi & Menjalankan project
 1. Install dependencies
    npm install
 
@@ -100,7 +135,7 @@ umkm-frontend/
 
 6. login harus daftar akun dulu baru bisa masuk
 
-# Catatan
+## Catatan
  - Backend perlu support fitur preparing status
  - Chat masih menggunakan polling (bukan websocket)
  - Notifikasi pesan berbasis frontend
